@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Class-18</title>
+</head>
+
+<body>
+    <input type="text" placeholder="Enter Your Name" id="a"> <br>
+    <input type="submit" value="SUBMIT" onclick="showName()">
+    <br><br>
+
+    <h1>Simple Calculator</h1>
+    <input type="number" placeholder="First Number" id="num1">
+    <input type="number" placeholder="Second Number" id="num2"> <br><br>
+    <!-- <input type="submit" value="ADD" onclick="addNumbers()"> -->
+    <input type="submit" value="SUBTRACT" onclick="subtractNumbers()">
+    <input type="submit" value="MULTIPLY" onclick="multiplyNumbers()">
+    <input type="submit" value="DIVIDE" onclick="divideNumbers()">
+    <input type="submit" value="ALL" onclick="arithematic()">
+    <script>
+        function showName() {
+            var myname = document.getElementById("a").value
+            // document.write("Your name is "+myname)
+            alert("Your name is " + myname)
+        }
+        ///////////////////////////////////////////////////
+
+        // function addNumbers(){
+        //       var x = document.getElementById("num1").value
+        //       var y = document.getElementById("num2").value
+        //       alert(z)
+        // }
+        function subtractNumbers() {
+            var x = document.getElementById("num1").value
+            var y = document.getElementById("num2").value
+            alert(x - y)
+        }
+        function multiplyNumbers() {
+            var x = document.getElementById("num1").value
+            var y = document.getElementById("num2").value
+            alert(x * y)
+        }
+        function divideNumbers() {
+            var x = document.getElementById("num1").value
+            var y = document.getElementById("num2").value
+            alert(x / y)
+        }
+        function arithematic() {
+            var x = document.getElementById("num1").value
+            var y = document.getElementById("num2").value
+            var a = x-y
+            var b = x*y
+            var c = x/y
+            var d = x+y
+            alert("Addition : "+d+"  |  Subtraction : "+a+" |  Multiplication : "+b+" | Division : "+c)
+        }
+    </script>
+</body>
+
+</html>
