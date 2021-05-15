@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Sports Contest</title>
+    <style>
+        body{
+            background-image: url("https://images.unsplash.com/photo-1559579313-021b6ec9f6d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhZGl1bXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+            background-size: cover;
+        }
+        #a{
+            font-size: 70px;
+            font-family: broadway;
+            color: red;
+            text-align: center;
+        }
+        #b1{
+            font-size: 40px;
+            font-family: calisto mv;
+            background: cyan;
+        }
+        #b2{
+            font-size: 30px;
+            font-family: blackadder itc;
+            color: magenta;
+            background-color: brown;
+        }
+        #b{
+            height: 50px;
+            width: 350px;
+            font-size: 25px;
+            font-family: cursive;
+            background-color: yellow;
+            color: indigo;
+        }
+        select{
+            background-color: lightgreen;
+            color: yellow;
+            font-size: 25px;
+            width: 100px;
+        }
+        #c{
+            background-color: orange;
+            color: yellow;
+            font-size: 25px;
+            width: 300px;
+        }
+         textarea{
+            background-color: pink;
+            color: yellow;
+            font-size: 25px;
+            width: 400px;
+            height: 150px;
+        }
+        p{
+            color: purple;
+            font-size: 30px;
+            font-family: calisto mt;
+        }
+        #SUBMIT{
+            height: 50px;
+            width: 150px;
+            text-align: center;
+            font-size: 25px;
+            background-color: darkgreen;
+            color: yellowgreen;
+            border: 2px solid brown;
+        }
+        #CLEAR{
+            height: 50px;
+            width: 150px;
+            text-align: center;
+            font-size: 25px;
+            background-color: darkgreen;
+            color: gold;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="a">KinderGarten Starters</h1>
+    <fieldset>
+        <legend id="b1">Sports Contest Form</legend>
+        <form>
+          <fieldset>
+              <legend id="b2">Student's Information</legend>
+              
+            <input type="text" placeholder="First Name" id="b">
+            <input type="text" placeholder="Last Name" id="b"> <br>
+            <p>Select Your Grade</p>
+            <select>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select> <br>
+            <p>Date Of Birth</p><input type="date" id="c"> <br>
+          </fieldset>
+           <br>
+          <fieldset>
+              <legend id="b2">Parent Information</legend>
+            <input type="text" id="b" placeholder="Father's/Mother's"> <br><br>
+            <input type="number" id="b" placeholder="Mobile Number"> <br><br>
+            <input type="email" id="b" placeholder="Email-Id"> <br><br>
+            <p>Address : </p><textarea></textarea>
+          </fieldset> <br>
+            <input type="submit" id="SUBMIT" value="SUBMIT">
+            <input type="reset" id="CLEAR" value="CLEAR">
+        </form>
+    </fieldset>
+</body>
+</html>
